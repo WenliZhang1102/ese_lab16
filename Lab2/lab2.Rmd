@@ -81,7 +81,7 @@ Also, from the outcome of Shapiro-Wilk test, the value of W is 0.99943 which is 
 
 Both the qqplot and the Shapiro-Wilk test indicate that the residuals are normally distributed. 
 
-We can choose both qqplot and Shapiro-Wilk test to justify the normality. However, regarding this experiment the qqplot is more valuable than the Shapiro–Wilk test. A Shapiro–Wilk test is suitable for the small sample size up to 2000 and justifies "normality" based on p-value. The larger the sample size the more inaccurate it is to determine whether the data is normally distributed according to the p-value. As it is a large sample size of 4000, it is advisable to use a qqplot to justify the normality. The qqplot is able to reveal how the distribution is non-normal according to the characteristics(i.e., skewness, kurtosis, outliers, etc. ) and then 
+We can choose both qqplot and Shapiro-Wilk test to justify the normality. However, regarding this experiment the qqplot is more valuable than the Shapiro–Wilk test. A Shapiro–Wilk test is suitable for the small sample size up to 2000 and justifies "normality" based on p-value. The larger the sample size the more inaccurate it is to determine whether the data is normally distributed according to the p-value. As it is a large sample size of 4000, it is advisable to use a qqplot to justify the normality. The qqplot is able to reveal how the distribution is non-normal according to the characteristics(i.e., skewness, kurtosis, outliers, etc.).  
 
 ```{r d}
 qqPlot(lindata)
